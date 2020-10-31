@@ -26,8 +26,6 @@ search: true
 
 # Build settings
 markdown: kramdown
-katex:
-  js_path: "assets/js" # Path used to search for katex.min.js
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -58,7 +56,6 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  - jekyll-katex
 
 author:
   name   : "First Lastname"
